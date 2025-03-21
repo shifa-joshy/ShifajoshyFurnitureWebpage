@@ -1,0 +1,208 @@
+*{
+    font-family: "Playfair Display", serif;
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    height: 100px;
+}
+/* ul li{
+    font-size: 20px;
+} */
+
+
+/* global variable */
+
+:root{
+    --x: rgb(55, 10, 10);
+}
+
+ #butc{
+    background-color: var(--x);
+    color: white;
+ }
+
+ #butc:hover{
+    background-color: white;
+    color: var(--x);
+    border: 1px solid var(--x);
+
+ }
+ li i{
+    color: lightgray;
+ }
+
+ #main{
+    background-image: url('./imagesf/table1.png');
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+     /* to scroll below contents through it,make it as fixed */
+
+    background-attachment: fixed;
+ }
+
+ /* head content */
+
+ #well{
+    padding-top: 22%;
+    padding-left: 5%;
+ }
+
+ #well h1{
+    font-size: 100px;
+ }
+ #bg{
+    background-color: rgba(0, 0, 0, 0.279);
+    width: 100%;
+ }
+
+/* to make content responsive at 600px devices */
+
+ @media(max-width:600px){
+    #well h1{
+        font-size: 40px;
+    }
+    #main{
+        background-position: bottom;
+    }
+ }
+
+
+
+
+ /* OUR WORKS PAGE */
+
+#work{
+    margin-top: 10%;
+    background-image: url("https://img.freepik.com/premium-vector/light-blurr…keh-background-vector-illustration_64749-4575.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 8%;
+
+}
+.card img{
+    height: 600px;
+    padding: 3% 5%;
+
+
+    
+}
+div .viewbtn{
+    border: 1px solid var(--x);
+    color: var(--x);
+
+}
+div .viewbtn:hover{
+    background-color: var(--x);
+    color: white;
+}
+
+
+/* ABOUT PAGE */
+
+
+#about{
+    background-color: rgb(128, 128, 128);
+     padding: 10% 0%; 
+}
+
+#about h1{
+    color: var(--x);
+
+}
+#hr{
+    width: 150px;
+    background-color: var(--x);
+    height: 0.4rem;
+}
+#about p{
+    text-align: justify;
+}
+
+#imagediv{
+    border: 7px solid var(--x);
+    width: 80%;
+    height: 500px;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+
+/* GALLERY */
+
+#project-gallery h1{
+    margin: 10% 0%;
+}
+
+.bigd{
+    position: relative;
+    margin-top: 20px;
+}
+
+.smalldiv{
+    background-color: rgba(0, 0, 0, 0.849);
+    width: 60%;
+    color: white;
+    padding: 5%;
+    position: absolute;
+    bottom: 0;
+
+}
+#project-galleryb{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+#base h1{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+#base p{
+    margin-left: 100px;
+}
+
+#table{
+    margin: 2% 10%;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+}
+.gg{
+    padding: 18% 2%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.638);
+}
+
+#list a{
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+    margin-top: 6%;
+    padding-left: 2%;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
